@@ -1,6 +1,7 @@
 module github.com/yuweizzz/sidecar
 
 go 1.21
+toolchain go1.23.7
 
 require (
 	github.com/BurntSushi/toml v1.5.0
@@ -11,4 +12,4 @@ require (
 	golang.org/x/sys v0.30.0
 )
 
-require golang.org/x/net v0.33.0 // indirect
+require golang.org/x/net v0.36.0 // indirect
